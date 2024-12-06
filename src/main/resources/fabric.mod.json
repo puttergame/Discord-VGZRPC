@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "puttergame_rpc",
+  "version": "${version}",
+  "name": "DiscordRPC",
+  "description": "Discord RPC for Minecraft",
+  "authors": [
+    "puttergame_za"
+  ],
+  "contact": {
+    "repo": "https://www.youtube.com/@puttergameZa"
+  },
+  "license": "MIT",
+  "icon": "logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.fateless.rpc.RPCClient"
+    ],
+    "main": [
+      "net.fateless.rpc.RPCP"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
