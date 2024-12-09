@@ -26,7 +26,7 @@ public class RPCClient implements ClientModInitializer {
     public void onInitializeClient() {
         try {
             updatePresence();
-            LOGGER.info("RPC LOADING..");
+            LOGGER.info("Puttergame RPC LOADING..");
         } catch (Exception e) {
             LOGGER.error("Failed to initialize Discord RPC", e);
         }
@@ -39,7 +39,7 @@ public class RPCClient implements ClientModInitializer {
 
         String state;
         if (USE_USERNAME) {
-            state = "Minecraft ID: " + username;
+            state = "ID Minecraft: " + username;
         } else {
             state = DEFAULT_STATE;
         }

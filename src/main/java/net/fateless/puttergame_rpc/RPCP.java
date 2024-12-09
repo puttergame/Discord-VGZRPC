@@ -9,6 +9,7 @@ public class RPCP implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.info("FLRPC LOADING..");
+        LOGGER.info("Fateless RPC LOADING..");
+        LOGGER.info("Puttergamerpc loading..");
     }
 }
