@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 public class RPCClient implements ClientModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("FATELESS RPC");
     private static final String ID = "1304123004560736378";
-    private static final String Name = "{GVZ Project}";
+    private static final String Name = "{VGZ Project}";
 
     private static final String APPLICATION_ID = ID;
     private static final boolean AUTO_REGISTER = true;
